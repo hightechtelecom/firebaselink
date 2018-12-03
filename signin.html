@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Firebase Auth 2019" />
+    <title>Firebase Auth 2019</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="../app.min.css" type="text/css">
+</head>
+
+<body>
+    <main id="signin-main">
+        <div id="signup-card-container">
+            <div id="signup-card">
+                <div id="signup-card-body">
+                    <div id="signup-enter-email-div" class="signup-card-display signup-body-displayed">
+                        <h4>Authenticate Via Email</h4>
+                        <label for="name">Email:</label>
+                        <input type="email" id="email-input" name="email" required maxlength=254 onkeyup = "if (event.keyCode == 13)document.getElementById('signin-submit-button').click()">
+                        <button id="signin-submit-button">
+                            Submit
+                        </button>
+                    </div>
+                    <div id="signup-check-email-div" class="signup-card-display">
+                        <h4>Check Email</h4>
+                        <p>
+                            Click on the link sent to 
+                            <span id="signup-email-address-span"></span>
+                            to complete the sign in process.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="signup-card-footer">
+                <a href="/help">
+                    Help
+                </a>
+                <a href="/privacy">
+                    Privacy
+                </a>
+                <a href="/terms">
+                    Terms
+                </a>
+            </div>
+        </div>
+    </main>
+    <script src="app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Firebase Auth 2019" />
+    <title>Firebase Auth 2019</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="../app.min.css" type="text/css">
+</head>
+
+<body>
+    <main id="home">
+        <h1>Firebase Sign In Via Link Example</h1>
+        <section>
+            <h2>Synopsis</h2>
+            <p>
+                This site demonstrates implementation of 
+                <a href="https://firebase.google.com/docs/auth/web/email-link-auth">Authenticate with Firebase Using Email Link in JavaScript</a>
+                paired with 
+                <a href="https://firebase.google.com/docs/auth/web/anonymous-auth">Authenticate with Firebase Anonymously Using JavaScript</a>.
+            </p>
+            <h3>Step 1.</h3>
+            <p>
+                Click the button below to add an apple to your shopping cart. 
+                The click triggers the below action:
+                <ol>
+                    <li>
+                        If user is not signed in, sign in anonymously, and create user record in Firestore.
+                    </li>
+                    <li>
+                        Adds an apple to users record.
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <button id="add-apple-button">
+                    Add Apple To Cart
+                </button>
+            </p>
+            <h5>Current Values</h5>
+            <p>
+                Auth UID: <span id="user-uid-span"></span><br>
+                Auth isAnonymous: <span id="is-anonymous-span"></span><br>
+                Auth email: <span id="user-email-span"></span><br>
+                User Apples: <span id="user-apple-count-span"></span><br>
+            </p>
+            <h3>Step 2.</h3>
+            <p>
+                Click the buttons below to sign in or sign out.
+            </p>
+            <p>
+                <button id="sign-in-button">
+                    Sign In
+                </button>
+                <button id="sign-out-button">
+                    Sign Out
+                </button>
+            </p>
+        </section>
+    </main>
+    <script src="app.min.js"></script>
+</body>
+
+</html>
