@@ -1,12 +1,12 @@
 (function() {
-    // Initialize Firebase
+    // Initialize Firebase WITH YOUR PROJECT PARAMETERS
     var config = {
-        apiKey: "AIzaSyA5noQrEhABAHHduwJA0V3K3gZ8Vb1vctw",
-        authDomain: "fir-authui2019.firebaseapp.com",
-        databaseURL: "https://fir-authui2019.firebaseio.com",
-        projectId: "fir-authui2019",
-        storageBucket: "fir-authui2019.appspot.com",
-        messagingSenderId: "243352425613"
+        apiKey: "YourApiKeyGoesHere",
+        authDomain: "your-auth-domain.firebaseapp.com",
+        databaseURL: "https://your-project.firebaseio.com",
+        projectId: "your-project",
+        storageBucket: "your-project.appspot.com",
+        messagingSenderId: "1234567890"
     };
     var firebase = window.firebase;
     firebase.initializeApp(config);
