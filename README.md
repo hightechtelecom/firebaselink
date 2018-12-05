@@ -1,9 +1,9 @@
 # Firebase Email Link Authentication
 
 This code demonstrates implementation of 
-[https://firebase.google.com/docs/auth/web/anonymous-auth](Authenticate with Firebase Anonymously Using JavaScript)
+[Authenticate with Firebase Anonymously Using JavaScript](https://firebase.google.com/docs/auth/web/anonymous-auth)
 paired with 
-[https://firebase.google.com/docs/auth/web/email-link-auth](Authenticate with Firebase Using Email Link in JavaScript).
+[Authenticate with Firebase Using Email Link in JavaScript](https://firebase.google.com/docs/auth/web/email-link-auth).
 
 Users can add an apple to their shopping cart without having authenticated via creation of an anonymous account and corresponding Firestore record 
 with realtime listener attached.
@@ -28,7 +28,7 @@ separate collection, i.e., this is an oversimplified shopping cart implementatio
 
 Firebase's Firestore, Hosting, and Authentication systems. 
 This code utilizes the [async / await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) coding pattern 
-therefore browser code shuold include a polyfill such as Babel's polyfill.js
+therefore browser code shuold include a polyfill such as [Babel's polyfill.js](https://babeljs.io/docs/en/babel-polyfill#usage-in-browser).
 
 ### Installing
 
