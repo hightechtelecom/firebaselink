@@ -1,6 +1,6 @@
 # Firebase Email Link Authentication
 
-** Live Example ** at [https://firebaselink.hightechtele.com](firebaselink.hightechtele.com)
+**Live Example** at [https://firebaselink.hightechtele.com](firebaselink.hightechtele.com)
 
 ## Summary
 
