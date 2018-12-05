@@ -1,23 +1,22 @@
 # Firebase Email Link Authentication
 
+** Live Example ** at [https://firebaselink.hightechtele.com](firebaselink.hightechtele.com)
+
+## Summary
+
 This code demonstrates implementation of 
 [Authenticate with Firebase Anonymously Using JavaScript](https://firebase.google.com/docs/auth/web/anonymous-auth)
 paired with 
 [Authenticate with Firebase Using Email Link in JavaScript](https://firebase.google.com/docs/auth/web/email-link-auth).
 
-Users can add an apple to their shopping cart without having authenticated via creation of an anonymous account and corresponding Firestore record 
-with realtime listener attached.
+Users can add an apple to their shopping cart without having authenticated. This functionality is enabled by creation of an anonymous 
+account and corresponding Firestore record with realtime listener attached. 
 
-Anonymous users can then authenticate via an email link and have their shopping cart merged with their authenticated account's cart 
+Anonymous users can authenticate via an email link and have their shopping cart merged with their new authenticated account's cart 
 via account linking, account deletion, and Firestore record deletion. 
 
-NOTE: An actual shopping cart implementation would likely include a cart field conatining the id of a cart which would be stored in a 
-separate collection, i.e., this is an oversimplified shopping cart implementation.
-
-## Live Example
-
-🍎 This code is configured and working against a test/development Firebase project that I have configured at 
-[https://firebaselink.hightechtele.com](firebaselink.hightechtele.com).
+> NOTE: An actual shopping cart implementation would likely include a cart field conatining the id of a cart which would be stored in a 
+> separate collection, i.e., this is an oversimplified shopping cart implementation.
 
 ## Features
  - Account linking and Firestore record merging and finally deletion of orphaned account and record are explicitly coded. 
